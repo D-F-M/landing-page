@@ -49,6 +49,9 @@ body{
 
 .awesome-container{
     display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 155px;
 }
 
 .awesome-left{
@@ -70,6 +73,14 @@ p{
 .awesome-image{
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 400px;
+    font-size: 12px;
+    background-color: grey;
+}
+
+.awesome-button{
+    border-color: #3882F6;
 }
 
 .images{
